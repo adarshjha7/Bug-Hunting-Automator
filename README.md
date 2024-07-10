@@ -1,4 +1,4 @@
-This Python script is designed to automate a series of security tasks against a specified target, which can be either an IP address or a URL. Here's a breakdown of what each function in the script does:
+This Python script is designed to automate a series of security tasks against a specified target, which can be either an IP address or a URL for **BUG BOUNTY HUNTERS**. Here's a breakdown of what each function in the script does:
 
 1. ***Imports and Libraries Used:***
    - os: Standard library for interacting with the operating system.
@@ -56,3 +56,11 @@ This Python script is designed to automate a series of security tasks against a 
    - Prompts the user to input a target IP address or URL.
    - Calls each function (perform_nmap_scan, perform_dirsearch, perform_sqlmap) sequentially with the user-provided target.
    - Handles exceptions raised during subprocess calls (subprocess.CalledProcessError) and prints relevant error messages if any of the tools encounter issues.
+
+OUTPUT OF THE SCRIPT:
+         
+![au1](https://github.com/adarshjha7/Bug-Hunting-Automator/assets/98156564/3835a3d9-294d-4af8-9089-1250b75c99af)
+
+![au2](https://github.com/adarshjha7/Bug-Hunting-Automator/assets/98156564/a013c63a-30fd-4962-803f-a966dfb9048c)
+
+![au3](https://github.com/adarshjha7/Bug-Hunting-Automator/assets/98156564/737e3108-0dab-46fc-a3ff-acb9543aff1f)
